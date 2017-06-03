@@ -1,0 +1,120 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Comfortaa', cursive;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0;
+	font-weight: 700;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #2B3745;
+}
+
+#cover {
+	background-color: #FF5965;
+	height: 100%;
+	width: 100%;
+}
+
+#cover-text {
+	color: #2B3745;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+
+#cover-text .title, #cover-text .subtitle {
+	margin: 0;
+	padding: 0;
+}
+
+#cover-text .title {
+	text-transform: uppercase;
+	font-family: 'Cabin', sans-serif;
+}
+
+#cover-text .subtitle {
+	margin-top: 20px;
+	font-weight: 300;
+}
+
+#cover-links {
+	margin-top: 20px;
+}
+
+#cover-links a {
+	margin: 0 5px;
+}
+
+.project {
+	height: 100vh;
+	width: 100%;
+	background-color: #2B3745;
+	border-top: 1px solid #FF5965;
+	color: #FF5965;
+}
+
+
+.project-details {
+	min-height: 20vh;
+	text-align: center;
+	background-color: rgba(43,55,69,0.9);
+	padding: 2.5vh;
+}
+
+.bg-image {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.project-button {
+	background-color: #FF5965;
+	display: block;
+	text-align: center;
+	padding: 15px;
+}
+
+#destinyambience {
+	background-image: url('assets/img/destinyambience.png');
+}
+
+#getgood {
+	background-image: url('assets/img/getgood.png');
+}
+
+#cornelius {
+	background-image: url('assets/img/cornelius.png');
+}
+
+.tools-list {
+	list-style: none;
+	padding: 0;
+}
+
+
+@media (min-width:768px) {
+	.bg-image {
+		background-attachment: fixed;
+	}
+}

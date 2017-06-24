@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Cornelius",
+		"description": "A node module for grabbing MLB data.",
+		"id": "cornelius",
+		"url": "https://www.npmjs.com/package/cornelius",
+		"tools": ["NPM", "Bluebird", "Mocha/Chai", "MLB Data"]
+	},
+	{
+		"name": "Destiny Ambience",
+		"description": "Ambient audio site using Destiny locations.",
+		"id": "destinyambience",
+		"url": "http://destiny.apparicio.me",
+		"tools": ["ExpressJS", "AngularJS", "Bungie API"]
+	},
+	{
+		"name": "Get Good",
+		"description": "Task and ambition tracking web app.",
+		"id": "getgood",
+		"url": "https://get-good.herokuapp.com/",
+		"tools": ["MongoDB", "ExpressJS", "AngularJS", "Custom API"]
+	},
+	{
+		"name": "Random Quotes",
+		"description": "Grabs random quotes from 'Quotes on Design' blog.",
+		"id": "miniquote",
+		"url": "https://codepen.io/appac/full/zzxYMN/",
+		"tools": ["jQuery", "Bootstrap", "WordPress API"]
+	},
+	{
+		"name": "Wikipedia Search",
+		"description": "Simple search for Wikipedia articles.",
+		"id": "miniwiki",
+		"url": "https://codepen.io/appac/full/VWLrqz/",
+		"tools": ["jQuery", "Bootstrap", "jsRender", "Wikipedia API"]
+	},
+	{
+		"name": "Mini Weather App",
+		"description": "Tiny weather app using Unsplash and CSS3 filters.",
+		"id": "miniweather",
+		"url": "https://codepen.io/appac/full/MowwNZ/",
+		"tools": ["jQuery", "Bootstrap", "Unsplash API", "Darksky API"]
+	}
+]

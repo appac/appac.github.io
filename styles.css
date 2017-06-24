@@ -1,13 +1,7 @@
-html {
-	height: 100%;
-	width: 100%;
-}
-
 body {
-	margin: 0;
-	height: 100%;
-	width: 100%;
-	font-family: 'Comfortaa', cursive;
+	color: #009B72;
+	background-color: #3D4046;
+	font-family: 'Anonymous Pro', monospace;
 }
 
 h1,
@@ -15,106 +9,68 @@ h2,
 h3,
 h4 {
 	margin-top: 0;
-	font-weight: 700;
 }
 
 a {
-	color: #fff;
+	color: #FB3640;
 	text-decoration: none;
 }
 
-a:hover {
-	text-decoration: none;
-	color: #2B3745;
+a:hover, a:focus {
+	color: #FB3640;
+	text-decoration: underline;
 }
 
-#cover {
-	background-color: #FF5965;
-	height: 100%;
-	width: 100%;
+#header {
+	margin: 1rem 0;
 }
 
-#cover-text {
-	color: #2B3745;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	width: 100%;
+#header__text {
 	text-align: center;
+	border: 2px solid #FB3640;
+	text-transform: uppercase;
+	padding: 0.5rem;
 }
 
-#cover-text .title, #cover-text .subtitle {
+#header__text .title, #header__text .subtitle {
 	margin: 0;
 	padding: 0;
 }
 
-#cover-text .title {
-	text-transform: uppercase;
-	font-family: 'Cabin', sans-serif;
+#header__text .title {
+	font-family: 'Archivo Black', sans-serif;
 }
 
-#cover-text .subtitle {
-	margin-top: 20px;
-	font-weight: 300;
+#header__text .subtitle {
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-weight: 200;
 }
 
-#cover-links {
-	margin-top: 20px;
+.card {
+	background-color: transparent;
+	margin-bottom: 1rem;
 }
 
-#cover-links a {
-	margin: 0 5px;
+.card-title {
+	background-color: #3D4046;
+	padding: 0.3rem;
 }
 
-.project {
-	height: 100vh;
-	width: 100%;
-	background-color: #2B3745;
-	border-top: 1px solid #FF5965;
-	color: #FF5965;
+.card-text {
+	background-color: #009B72;
+	padding: 0.3rem;
 }
 
-
-.project-details {
-	min-height: 20vh;
-	text-align: center;
-	background-color: rgba(43,55,69,0.9);
-	padding: 2.5vh;
+#tools {
+	display: none;
 }
 
-.bg-image {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+.badge-default {
+	background-color: #FB3640;
 }
 
-.project-button {
-	background-color: #FF5965;
-	display: block;
-	text-align: center;
-	padding: 15px;
-}
-
-#destinyambience {
-	background-image: url('assets/img/destinyambience.png');
-}
-
-#getgood {
-	background-image: url('assets/img/getgood.png');
-}
-
-#cornelius {
-	background-image: url('assets/img/cornelius.png');
-}
-
-.tools-list {
-	list-style: none;
-	padding: 0;
-}
-
-
-@media (min-width:768px) {
-	.bg-image {
-		background-attachment: fixed;
+@media (min-width: 768px) { 
+	#tools {
+		display: inline-block;
 	}
 }

@@ -46,17 +46,16 @@ a:hover, a:focus {
 	font-weight: 200;
 }
 
-.card {
-	background-color: transparent;
+.project-card {
 	margin-bottom: 1rem;
 }
 
-.card-title {
+.project-card .card-title {
 	background-color: #3D4046;
 	padding: 0.3rem;
 }
 
-.card-text {
+.project-card .card-text {
 	background-color: #009B72;
 	padding: 0.3rem;
 }
@@ -65,7 +64,7 @@ a:hover, a:focus {
 	display: none;
 }
 
-.badge-default {
+.project-card .badge-default {
 	background-color: #FB3640;
 }
 

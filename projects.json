@@ -40,5 +40,12 @@
 		"id": "miniweather",
 		"url": "https://codepen.io/appac/full/MowwNZ/",
 		"tools": ["jQuery", "Bootstrap", "Unsplash API", "Darksky API"]
+	},
+	{
+		"name": "Twitch Tracker",
+		"description": "Keep track of Twitch streams.",
+		"id": "minitwitch",
+		"url": "http://twitch.apparicio.me/",
+		"tools": ["jQuery", "Bootstrap", "jsRender", "Local Storage", "Twitch API"]
 	}
 ]

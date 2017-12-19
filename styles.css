@@ -33,7 +33,7 @@ a:hover, a:focus {
     padding: 0.5rem;
 }
 
-#header__text .title, #header__text .subtitle {
+#header__text .title {
     margin: 0;
     padding: 0;
 }
@@ -45,8 +45,4 @@ a:hover, a:focus {
 
 .project__desc {
     padding-bottom: 0;
-}
-
-.project-card .badge-default {
-    background-color: #FB3640;
 }

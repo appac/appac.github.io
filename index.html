@@ -2,50 +2,43 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<title>Chris Apparicio - Web Developer</title>
+    <meta charset="utf-8">
+    <title>Chris Apparicio - Web Developer</title>
     <link rel="shortcut icon" type="image/png" href="favicon.png">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'
-	/>
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' />
-	<link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'
+    />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' />
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<div class="container">
-		<div id="header" class="row justify-content-center">
-			<div id="header__text" class="col-sm-12 col-md-6 col-lg-3 animated fadeInDown">
-				<h2 class="title">Chris Apparicio</h2>
-				<p class="subtitle">Web Developer</p>
-			</div>
-		</div>
-		<div id="projects" class="row">
+    <div class="container">
+        <div id="header" class="row justify-content-center">
+            <div id="header__text" class="col-sm-12 col-md-6 col-lg-3 animated fadeInDown">
+                <h2 class="title">Chris Apparicio</h2>
+            </div>
+        </div>
+        <div id="projects" class="text-center">
 
-		</div>
-	</div>
+        </div>
+    </div>
 
-	<script id="project" type="text/js-render">
-		<div class="col-sm-12 col-md-6 col-lg-4">
-			<div class="project-card card card-inverse animated fadeInUp">
-				<a href="{{:url}}" target="_blank">
-				<img class="card-img img-fluid" src="/assets/img/{{:id}}.jpg" alt="{{:name}} image">
-				<div class="card-img-overlay">
-					<p class="card-text">{{:description}}</p>
-					<h4 class="card-title">{{:name}}</h4>
-					{{for tools}}
-						<small id="tools"><span class="badge badge-default">{{:}}</span></small>
-					{{/for}}
-				</div>
-			</a>
-			</div>
-		</div>
-	</script>
+    <script id="project" type="text/js-render">
+        <ul class="projects__list">
+            <li>
+                <a href="{{:url}}" target="_blank">
+                    <h5>{{:name}}</h5>
+                </a>
+                <p>{{:description}}</p>
+            </li>
+        </ul>
+    </script>
 
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.86/jsrender.min.js'></script>
-	<script src="script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.86/jsrender.min.js'></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

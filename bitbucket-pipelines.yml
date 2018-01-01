@@ -8,8 +8,9 @@
 pipelines:
   default:
     - step:
+        name: Deploy
         script:
-          - echo "Accessing server via SSH."
           - ssh root@178.62.20.19
+          - ls -a
           - touch testfile.test
           - exit

@@ -9,4 +9,7 @@ pipelines:
   default:
     - step:
         script:
-          - echo "Everything is awesome!"
+          - echo "Accessing server via SSH."
+          - ssh root@178.62.20.19
+          - touch testfile.test
+          - exit

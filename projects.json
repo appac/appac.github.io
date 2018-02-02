@@ -19,5 +19,19 @@
         "id": "getgood",
         "url": "https://get-good.herokuapp.com",
         "tools": ["AngularJS", "MongoDB", "Node.js", "ExpressJS", "Bootstrap 3"]
+    },
+    {
+        "name": "Simple Address Book",
+        "description": "A simple address book.",
+        "id": "simple-address",
+        "url": "https://appac-address-book.firebaseapp.com/",
+        "tools": ["AngularJS", "LocalStorage", "Bootstrap 4"]
+    },
+    {
+        "name": "Twitch Tracker",
+        "description": "Track your favourite Twitch streams.",
+        "id": "twitch-tracker",
+        "url": "https://appac-twitch-tracker.firebaseapp.com/",
+        "tools": ["jsRender", "Bootstrap 4", "jQuery", "LocalStorage"]
     }
 ]

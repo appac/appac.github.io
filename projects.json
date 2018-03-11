@@ -26,19 +26,5 @@
         "id": "destiny-ambience",
         "url": "https://appac-destiny.firebaseapp.com/",
         "tools": ["AngularJS", "NgAudio"]
-    },
-    {
-        "name": "Simple Address Book",
-        "description": "A simple address book.",
-        "id": "simple-address",
-        "url": "https://appac-address-book.firebaseapp.com/",
-        "tools": ["AngularJS", "LocalStorage", "Bootstrap 4"]
-    },
-    {
-        "name": "Twitch Tracker",
-        "description": "Track your favourite Twitch streams.",
-        "id": "twitch-tracker",
-        "url": "https://appac-twitch-tracker.firebaseapp.com/",
-        "tools": ["jsRender", "Bootstrap 4", "jQuery", "LocalStorage"]
     }
 ]

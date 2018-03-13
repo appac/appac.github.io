@@ -26,5 +26,12 @@
         "id": "destiny-ambience",
         "url": "https://appac-destiny.firebaseapp.com/",
         "tools": ["AngularJS", "NgAudio"]
+    },
+    {
+        "name": "Notes On Web Dev",
+        "description": "A growing collection of notes I've taken deep diving different web dev topics.",
+        "id": "notes-on",
+        "url": "https://github.com/appac/notes-on",
+        "tools": ["Markdown"]
     }
 ]

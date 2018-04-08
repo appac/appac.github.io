@@ -162,6 +162,7 @@ a:hover {
     }
     .title__header {
         writing-mode: vertical-lr;
+        text-align: left;
     }
 }
 

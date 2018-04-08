@@ -1,44 +1,67 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Chris Apparicio - Web Developer</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'
-    />
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' />
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Chris Apparicio - Full Stack Developer</title>
 </head>
-
 <body>
-    <div class="container">
-        <div id="header" class="row justify-content-center">
-            <div id="header__text" class="col-sm-12 col-md-6 col-lg-3 animated fadeInDown">
-                <h2 class="title">Chris Apparicio</h2>
+    <main>
+        <div class="grid">
+            <div class="name">
+                <h1 class="name__header">
+                    Chris Apparicio
+                </h1>
+            </div>
+            <div class="title">
+                <h2 class="title__header">
+                    Full Stack Developer
+                </h2>
+            </div>
+            <b class="break">
+            </b>
+            <div class="social">
+                <ul class="social__list">
+                    <li><a href="https://github.com/appac">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/chrisapparicio">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="location">
+                <p class="location__text">
+                    Based in:<br>
+                    <span class="text-highlight">
+                        [London]
+                    </span>
+                </p>
+                <p class="location__text">
+                    Open to:<br>
+                    <span class="text-highlight">
+                        [UK, EU, SK, JP, NZ]
+                    </span>
+                </p>
+            </div>
+            <div class="projects">
+                <h2 class="projects__title">Projects</h2>
+                <div class="projects__item">
+                    <a href="https://www.npmjs.com/package/cornelius">Cornelius</a>
+                </div>
+                <div class="projects__item">
+                    <a href="https://github.com/appac/notes-on">Notes On</a>
+                </div>
+                <div class="projects__item">
+                    <a href="https://appac.github.io/mlb-data-api-docs/">MLB Data API Docs</a>
+                </div>
+                <div class="projects__item">
+                    <a href="https://get-good.herokuapp.com/">GetGood</a>
+                </div>
+                <div class="projects__item">
+                    <a href="https://appac-destiny.firebaseapp.com/">Destiny Ambience</a>
+                </div>
             </div>
         </div>
-        <div id="projects" class="text-center">
-
-        </div>
-    </div>
-
-    <script id="project" type="text/js-render">
-        <ul class="projects__list">
-            <li>
-                <a href="{{:url}}" target="_blank">
-                    <h5>{{:name}}</h5>
-                </a>
-                <p>{{:description}}</p>
-            </li>
-        </ul>
-    </script>
-
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.86/jsrender.min.js'></script>
-    <script src="assets/js/script.js"></script>
+    </main>
 </body>
-
 </html>
